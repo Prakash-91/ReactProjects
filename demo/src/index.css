@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#dfdee0, #c3c3c4);
+  color: #e5d9f1;
+  min-height: 100vh;
+}
+
+.card {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 30rem;
+  border-radius: 6px;
+  background: linear-gradient(#254041, #203031);
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #b3f4f6;
+}
+
+.card p {
+  margin: 0.5rem 0;
+}
+
+.card a {
+  color: #b3f4f6;
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #8567fd;
+  color: white;
+  border: 2px solid #8567fd;
+  border-radius: 6px;
 }
