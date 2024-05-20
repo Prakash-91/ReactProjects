@@ -135,6 +135,10 @@ npm start
 
 =================================================================================
 
+Windows formatting shortcuts
+================================
+(Alt+Shift+F)
+
 
 JS Array Functions
 Not really next-gen JavaScript, but also important: JavaScript array functions like map() , filter() , reduce()  etc.
